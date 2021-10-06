@@ -22,7 +22,8 @@ jobs:
           username: ${{ secrets.ftp_main_username }}
           password: ${{ secrets.ftp_main_password }}
           local-dir: bosshud/
-          server-dir: csgo/addons/sourcemod/configs/MapBossHP/
+          server-dir: csgo/addons/sourcemod/configs/file/
+
 
       - name: Sync BSP CVar Whitelist Files
         uses: SnowyGFL/FTP-Deploy-Action@1.1
